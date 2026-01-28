@@ -57,4 +57,46 @@ color: #e3ef26;
     background-color: #e3ef26;
     color: #06231D;
     transition: ease-in .3s;
+    
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+span {
+    color: #e3ef26;
+}
+
+.download-cv{
+    padding: 10px 20px;
+    background-color: #e3ef26;
+    border: none;
+    border-radius: 20px;
+    color: #06231D;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.download-cv:hover {
+    background-color: #076653;
+    color: #e3ef26;
+    transition: ease-in .3s;
+}
+
+
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
 }
