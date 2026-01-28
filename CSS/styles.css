@@ -9,12 +9,14 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .wrapper {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     background-color: #0c342c;
     color: #fff;
 }
@@ -94,9 +96,15 @@ span {
     transition: ease-in .3s;
 }
 
-
 .profile-img {
-    width: 300px;
+    width: 350px;
     border-radius: 50%;
     object-fit: cover;
+    border: 5px solid #e3ef26;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
 }
