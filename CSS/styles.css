@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0c342c;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.brand {
+    margin-top: -7px;
+}
+
+.brand span {
+    color: #e3ef26;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu .active {
+color: #e3ef26;
+}
+
+.menu a:hover {
+    background-color: #e3ef26;
+    color: #06231D;
+    transition: ease-in .3s;
+}
