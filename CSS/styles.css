@@ -105,6 +105,17 @@ span {
 
 .about {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    width: 100vw;
+    grid-template-columns: auto 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.about-img {
+    width: 300px;
+    object-fit: cover;
+    border: 5px solid #e3ef26;
+    max-width: 100%;
 }
