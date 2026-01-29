@@ -69,15 +69,27 @@ color: #e3ef26;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+    gap: 4rem;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-h1 {
+.main h1 {
     font-size: 3em;
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 
-span {
+.main span {
     color: #e3ef26;
+}
+
+.info-content {
+    max-width: 500px;
+}
+
+.info-content p {
+  line-height: 1.6;
 }
 
 .download-cv{
@@ -88,6 +100,7 @@ span {
     color: #06231D;
     margin-top: 10px;
     cursor: pointer;
+    margin-top: 1.5rem;
 }
 
 .download-cv:hover {
@@ -97,7 +110,7 @@ span {
 }
 
 .profile-img {
-    width: 350px;
+    width: 400px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #e3ef26;
@@ -106,16 +119,32 @@ span {
 .about {
     display: grid;
     grid-template-columns: auto 1fr;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 4rem 3rem;
-    gap: 2.5rem;
+    padding: 4rem 2rem;
+    gap: 10rem;
     align-items: center;
 }
 
 .about-img {
     width: 300px;
     object-fit: cover;
-    border: 5px solid #e3ef26;
+    border: 5px solid #0c342c;
     max-width: 100%;
+}
+
+.about-info {
+    color: #0c342c; 
+    max-width: 500px;  
+}
+
+.about-info h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.about-info p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-align: left;
 }
