@@ -141,6 +141,7 @@ color: #e3ef26;
 .about-info h2 {
     text-align: center;
     margin-bottom: 1.5rem;
+    font-size: 2em;
 }
 
 .about-info p {
@@ -148,3 +149,4 @@ color: #e3ef26;
     margin-bottom: 1rem;
     text-align: left;
 }
+
