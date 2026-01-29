@@ -13,7 +13,8 @@ body {
     overflow-x: hidden;
 }
 
-.wrapper {
+.wrapper,
+.portfolio {
     width: 100vw;
     min-height: 100vh;
     height: auto;
@@ -92,7 +93,8 @@ body {
     line-height: 1.6;
 }
 
-.download-cv {
+.download-cv,
+.project-details {
     padding: 10px 20px;
     background-color: #e3ef26;
     border: none;
@@ -103,7 +105,8 @@ body {
     margin-top: 1.5rem;
 }
 
-.download-cv:hover {
+.download-cv:hover,
+.project-details:hover {
     background-color: #076653;
     color: #e3ef26;
     transition: ease-in .3s;
@@ -150,3 +153,60 @@ body {
     text-align: left;
 }
 
+.portfolio-heading {
+    width: 100vw;
+    padding: 5em;
+}
+
+.portfolio-heading h2 {
+    font-size: 2.5em;
+    color:#e3ef26;
+}
+.portfolio .container {
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.card {
+    background-color: #06231D;
+    padding: 1.5rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    aspect-ratio: 1 / 1;      
+    object-fit: contain;    
+    border: 3px solid #e3ef26;
+    border-radius: 15px;
+    padding: 10px;           
+    background-color: #0c342c;
+}
+
+.card-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.card-title {
+    padding: 20px;
+}
+
+
+.card-projects-links {
+display: flex;
+justify-content: space-evenly;
+}
+
+.card-projects-links a {
+    color:#076653;
+    text-decoration: none;
+}
+
+.card-projects-links i {
+    font-size: 1.5em;
+}
