@@ -52,14 +52,14 @@ body {
 }
 
 .menu .active {
-color: #e3ef26;
+    color: #e3ef26;
 }
 
 .menu a:hover {
     background-color: #e3ef26;
     color: #06231D;
     transition: ease-in .3s;
-    
+
 }
 
 .main {
@@ -67,7 +67,7 @@ color: #e3ef26;
     width: 80vw;
     height: 80vh;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 4rem;
     max-width: 1100px;
@@ -89,10 +89,10 @@ color: #e3ef26;
 }
 
 .info-content p {
-  line-height: 1.6;
+    line-height: 1.6;
 }
 
-.download-cv{
+.download-cv {
     padding: 10px 20px;
     background-color: #e3ef26;
     border: none;
@@ -134,8 +134,8 @@ color: #e3ef26;
 }
 
 .about-info {
-    color: #0c342c; 
-    max-width: 500px;  
+    color: #0c342c;
+    max-width: 500px;
 }
 
 .about-info h2 {
