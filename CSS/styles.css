@@ -94,7 +94,8 @@ body {
 }
 
 .download-cv,
-.project-details {
+.project-details,
+.btn-submit {
     padding: 10px 20px;
     background-color: #e3ef26;
     border: none;
@@ -106,10 +107,15 @@ body {
 }
 
 .download-cv:hover,
-.project-details:hover {
+.project-details:hover,
+.btn-submit:hover {
     background-color: #076653;
     color: #e3ef26;
     transition: ease-in .3s;
+}
+
+.project-details {
+    margin-top: auto;
 }
 
 .profile-img {
@@ -160,8 +166,9 @@ body {
 
 .portfolio-heading h2 {
     font-size: 2.5em;
-    color:#e3ef26;
+    color: #e3ef26;
 }
+
 .portfolio .container {
     width: 80vw;
     margin: 0 auto;
@@ -175,15 +182,18 @@ body {
     padding: 1.5rem;
     border-radius: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .card-img {
     width: 100%;
-    aspect-ratio: 1 / 1;      
-    object-fit: contain;    
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
     border: 3px solid #e3ef26;
     border-radius: 15px;
-    padding: 10px;           
+    padding: 12px;
     background-color: #0c342c;
 }
 
@@ -196,17 +206,95 @@ body {
     padding: 20px;
 }
 
+.card-title h2 {
+    font-size: 1.3rem;
+    color: #e3ef26;
+}
+
+.card-title p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #ffffff;
+}
 
 .card-projects-links {
-display: flex;
-justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .card-projects-links a {
-    color:#076653;
-    text-decoration: none;
+    color: #e3ef26;
+    transition: color 0.3s ease;
+}
+
+.card-projects-links a:hover {
+    color: #076653;
 }
 
 .card-projects-links i {
     font-size: 1.5em;
+}
+
+.container-contact {
+    padding: 3em;
+}
+
+.contact-section {
+    background-color: #ffffff;
+    color: #06231D;
+    padding: 4rem 0;
+}
+
+.contact-heading h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #0c342c;
+    margin-bottom: 2rem;
+}
+
+.container-contact {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.container-contact img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.contact-form {
+    background-color: #0c342c;
+    padding: 2.5rem;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.contact-form h4 {
+    color: #e3ef26;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form input,
+.form textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+.form textarea {
+    resize: none;
+    height: 120px;
 }
